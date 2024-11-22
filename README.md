@@ -67,6 +67,9 @@ Response:
 {
   "message": "User created successfully"
 }
+
+
+
 2️⃣ Get All Users
 Method: GET /api/users
 Description: Retrieves all users from Firestore.
@@ -82,6 +85,9 @@ Response:
     }
   ]
 }
+
+
+
 3️⃣ Update a User
 Method: POST /api/updateUsers
 Description: Updates an existing user in Firestore.
@@ -95,6 +101,9 @@ Response:
 {
   "message": "User updated successfully!"
 }
+
+
+
 4️⃣ Delete a User
 Method: POST /api/deleteUsers
 Description: Deletes a user from Firestore.
@@ -106,6 +115,8 @@ Response:
 {
   "message": "User deleted successfully!"
 }
+
+
 
 ## 📜 Summary
 
