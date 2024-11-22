@@ -64,19 +64,14 @@ Description: Adds a new user to Firestore.
 Request Body:
 
 {
-
-  "name": "John Doe",
-  
+"name": "John Doe",
   "age": 30
-  
-}
+  }
 
 Response:
 
 {
-
-  "message": "User created successfully"
-  
+ "message": "User created successfully"
 }
 
 
@@ -90,12 +85,9 @@ Description: Retrieves all users from Firestore.
 Response:
 
 {
-
-  "status": 1,
-  
-  "message": "Data fetched successfully",
-  
-  "data": [
+"status": 1,
+"message": "Data fetched successfully",
+   "data": [
   
     {
     
@@ -122,21 +114,15 @@ Description: Updates an existing user in Firestore.
 Request Body:
 
 {
-
-  "id": "document_id_1",
-  
-  "name": "John Updated",
-  
-  "age": 31
-  
+"id": "document_id_1",
+"name": "John Updated",
+"age": 31
 }
 
 Response:
 
 {
-
-  "message": "User updated successfully!"
-  
+"message": "User updated successfully!"
 }
 
 
@@ -150,17 +136,13 @@ Description: Deletes a user from Firestore.
 Request Body:
 
 {
-
-  "id": "document_id_1"
-  
+ "id": "document_id_1"
 }
 
 Response:
 
 {
-
-  "message": "User deleted successfully!"
-  
+"message": "User deleted successfully!"
 }
 
 
