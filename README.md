@@ -62,14 +62,21 @@ Method: POST /api/users
 Description: Adds a new user to Firestore.
 
 Request Body:
+
 {
+
   "name": "John Doe",
+  
   "age": 30
+  
 }
 
 Response:
+
 {
+
   "message": "User created successfully"
+  
 }
 
 
@@ -81,16 +88,27 @@ Method: GET /api/users
 Description: Retrieves all users from Firestore.
 
 Response:
+
 {
+
   "status": 1,
+  
   "message": "Data fetched successfully",
+  
   "data": [
+  
     {
+    
       "id": "document_id_1",
+      
       "name": "John Doe",
+      
       "age": 30
+      
     }
+    
   ]
+  
 }
 
 
@@ -102,15 +120,23 @@ Method: POST /api/updateUsers
 Description: Updates an existing user in Firestore.
 
 Request Body:
+
 {
+
   "id": "document_id_1",
+  
   "name": "John Updated",
+  
   "age": 31
+  
 }
 
 Response:
+
 {
+
   "message": "User updated successfully!"
+  
 }
 
 
@@ -122,13 +148,19 @@ Method: POST /api/deleteUsers
 Description: Deletes a user from Firestore.
 
 Request Body:
+
 {
+
   "id": "document_id_1"
+  
 }
 
 Response:
+
 {
+
   "message": "User deleted successfully!"
+  
 }
 
 
