@@ -18,7 +18,7 @@ Before starting, ensure the following tools are installed on your system:
 🛠️ Setup Steps
 
 1️⃣ Clone the Repository
-1. ## git clone https://github.com/your-username/Firebase_RestApi_CloudFunction.git
+1. ## git clone https://github.com/Shreyasingh0405/Firebase_RestApi_CloudFunction.git
 
 2. cd Firebase_RestApi_CloudFunction
 
